@@ -9,33 +9,37 @@
   </head>
   <body>
     <main>
-   <section>
-       <div class="container">
-        <a class="start-link" href="./index.html">Go start</a>
+      <section>
+        <div class="container">
+          <a class="start-link" href="./index.html">Go start</a>
 
-          <input type="text" id="datetime-picker" />
-          <button type="button" data-start>Start</button>
-    
-          <div class="timer">
-            <div class="field">
-              <span class="value" data-days>00</span>
-              <span class="label">Days</span>
+          <div class="wrapper">
+            <div class="input-wrapper">
+              <input class="input" type="text" id="datetime-picker" />
+              <button type="button" data-start >Start</button>
+  
             </div>
-            <div class="field">
-              <span class="value" data-hours>00</span>
-              <span class="label">Hours</span>
-            </div>
-            <div class="field">
-              <span class="value" data-minutes>00</span>
-              <span class="label">Minutes</span>
-            </div>
-            <div class="field">
-              <span class="value" data-seconds>00</span>
-              <span class="label">Seconds</span>
+            <div class="timer">
+              <div class="field">
+                <span class="value" data-days>00</span>
+                <span class="label">Days</span>
+              </div>
+              <div class="field">
+                <span class="value" data-hours>00</span>
+                <span class="label">Hours</span>
+              </div>
+              <div class="field">
+                <span class="value" data-minutes>00</span>
+                <span class="label">Minutes</span>
+              </div>
+              <div class="field">
+                <span class="value" data-seconds>00</span>
+                <span class="label">Seconds</span>
+              </div>
             </div>
           </div>
-       </div>
-   </section>
+        </div>
+      </section>
     </main>
 
     <script type="module" src="./js/1-timer.js"></script>
