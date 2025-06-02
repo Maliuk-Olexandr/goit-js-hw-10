@@ -64,7 +64,6 @@ function updateTimerInterface({ days, hours, minutes, seconds }) {
 // Функція для запуску таймера
 function startTimer() {
   input.disabled = true; // Деактивуємо інпут, щоб користувач не міг змінити дату під час відліку
-  clearInterval(timerInterval); // Очищаємо попередній інтервал, якщо він існує
 
   const timerInterval = setInterval(() => {
     const currentDate = new Date();
