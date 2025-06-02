@@ -18,6 +18,7 @@ input[type='number']:focus {
   border: 1px solid #4e75ff;
 }
 fieldset {
+  border: 1px solid #000;
   border-radius: 4px;
   padding: 8px 48px 8px;
   display: flex;
@@ -30,17 +31,3 @@ button {
   height: 40px;
   background: #4e75ff;
 }
-
-/* .snackbar {
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1000;
-  background-color: var(--color-primary);
-  color: var(--color-on-primary);
-  padding: 16px;
-  border-radius: 4px;
-  box-shadow: var(--shadow-elevation-2dp);
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-} */
